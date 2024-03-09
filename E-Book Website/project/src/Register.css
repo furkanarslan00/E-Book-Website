@@ -1,0 +1,114 @@
+/* Register.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #656367;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.register-container {
+  background-color: #fffdfd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 350px; 
+}
+
+.info-box {
+  text-align: center;
+}
+
+.success-message {
+  color: #218838;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.name-surname {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; 
+}
+
+button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.link-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.link-container a {
+  text-decoration: none;
+  color: #28a745;
+}
+
+.link-container a:hover {
+  text-decoration: underline;
+}
+
+.name-field,
+.surname-field {
+  width: 150px; 
+}
+
+.form-group div:not(.name-surname) {
+  margin-bottom: 15px; 
+}
+
+.icon-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon-button:hover {
+  transform: scale(1.2);
+}

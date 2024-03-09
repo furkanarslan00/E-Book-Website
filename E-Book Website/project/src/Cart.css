@@ -1,0 +1,143 @@
+/* Cart.css */
+.cart-container {
+  background-color: #938888;
+  padding: 20px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.appp-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 100px;
+  color: #000000;
+  margin-right: 550px;
+  background-color: #dfbcbc;
+  display: block;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-style: italic;
+}
+
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.menu-section {
+  flex: 1;
+  background-color: #c8c1c1;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  padding: 40px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.menu-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  position: relative;
+  color: #ccc;
+  background-color: #000000;
+  display: inline-block;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-style: italic;
+}
+
+.menu-title::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.menu-link,
+.menu-button {
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.menuu-button {
+  background-color: #05980d;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  align-self: flex-end;
+}
+
+.menu-button:hover {
+  background-color: #e31919;
+}
+
+.bookk-section {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.text-info {
+  flex: 1;
+}
+
+.remove-button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.remove-button {
+  background-color: #6239a8;
+}
+
+.additional-info {
+  font-weight: bold;
+  text-align: left;
+}
+
+.cart-image {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.order-confirmation {
+  color: #0f4b1c;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+  padding: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+}

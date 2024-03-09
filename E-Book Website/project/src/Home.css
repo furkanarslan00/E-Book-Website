@@ -1,0 +1,122 @@
+/* Home.css */
+
+.home-container {
+  text-align: center;
+  padding: 20px;
+  margin-top: 135vh;
+  height: 330vh;
+}
+
+.h2style {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  color: #f3f1f1;
+  background-color: #542a2a;
+  display: block;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-style: italic; 
+  margin-top: 440px;
+  margin-bottom: 25px;
+}
+
+.h22style {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  color: #f3f1f1;
+  background-color: #542a2a;
+  display: block;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-style: italic; 
+  margin-bottom: 25px;
+  margin-top: 30px;
+  text-align: unset;
+}
+
+.card-image {
+  width: 1000px;
+  height: 320px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/*---------------------Kategory Kısmı--------------------------------------------------------------- */
+
+.category-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.category-row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.category {
+  background-color: #c8c1c1;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.category h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  position: relative;
+  margin-top: 0px;
+  text-align: left;
+}
+
+.category-images {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px
+}
+
+
+.category-images img {
+  width: 48%;
+  border-radius: 8px;
+}
+
+
+/*---------------------En alt yazı Kısmı--------------------------------------------------------------- */
+
+.more-categories-link {
+  display: block;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #542a2a;
+  text-decoration: none;
+  background-color: #c1b6b6;
+  padding: 10px 20px;
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  font-style: italic; 
+}
+
+.more-categories-link:hover {
+  background-color: #542a2a;
+  color: #f3f1f1;
+}
+
+.image-element {
+  width: 100px;
+
+}
+
+.no-image {
+  width: 100px;
+}

@@ -1,0 +1,33 @@
+/* Carousel.css */
+
+.carousel-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .carousel-arrow {
+    position: absolute;
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+    z-index: 1; 
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .carousel-left {
+    left: 10px;
+    height: 300px;
+  }
+  
+  .carousel-right {
+    right: 10px;
+    height: 300px;
+
+  }
+  
+  .carousel-arrow:hover {
+    color: #409f10;
+  }
